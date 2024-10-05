@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #0d0d0d;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #00ff00;
+}
+
+h1 {
+    color: #00ff00;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#countdown p {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #00ff00;
+}
+
+.mission-input input {
+    width: 70%;
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #003300;
+    color: #00ff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #004d00;
+}
+
+#missionsList {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#missionsList li {
+    background-color: #1a1a1a;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+}
+
+.mission-input h2, #missionDisplay h2 {
+    color: #00ff00;
+    margin-bottom: 10px;
+}

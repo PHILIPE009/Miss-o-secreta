@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle da Missão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Painel de Controle da Missão</h1>
+        
+        <div class="mission-input">
+            <h2>Envie uma Missão:</h2>
+            <input type="text" id="missionMessage" placeholder="Digite a missão">
+            <button onclick="sendMission()">Enviar Missão</button>
+        </div>
+
+        <div>
+            <h2>Configurar Contagem Regressiva:</h2>
+            <label for="dateTime">Data e Hora:</label>
+            <input type="datetime-local" id="dateTime">
+            <button onclick="setCountdown()">Definir Contagem</button>
+        </div>
+
+        <div id="missionDisplay">
+            <h2>Missões Enviadas:</h2>
+            <ul id="missionsList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
